@@ -1,0 +1,2 @@
+python manage.py dumpdata auth.User auth.Group --natural --indent=4  > auth.json
+python manage.py dumpdata --natural --indent=4 --exclude=contenttypes --exclude=auth --exclude=admin --exclude=sessions > data.json

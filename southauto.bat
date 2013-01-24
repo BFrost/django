@@ -1,0 +1,1 @@
+python.exe manage.py schemamigration %1 --auto

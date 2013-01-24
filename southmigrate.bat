@@ -1,0 +1,1 @@
+python.exe manage.py migrate %1
